@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+   float a;
+   printf("enter the value of a");
+   scanf("%f",&a); 
+   int b;
+   printf("enter the value of b");
+   scanf("%d",&b);
+   int c;
+   printf("enter the value of c");
+   scanf("%d",&c); 
+   int d;
+   printf("enter the value of d");
+   scanf("%d",&d); 
+   
+   float r=a*b+(c+d);
+   printf("%f",r);
+    return 0;
+}

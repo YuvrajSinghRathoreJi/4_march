@@ -1,0 +1,34 @@
+#include <stdio.h>
+int main()
+{
+    float num;
+    printf("enter the value of num");
+    scanf("%f",&num);
+    printf("the value of num is :%f\n",num);
+     
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    printf("the value of a is :%d\n",a);
+    
+    char alp;
+    printf("enter tha alphabet ");
+    scanf(" %c",&alp);
+    printf("the value of alphabet is :%c\n",alp);
+    
+    int b;
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    printf("the value of b is :%d\n",b);
+    
+    float v;
+    printf("enter the value of v");
+    scanf("%f",&v);
+    printf("the value of v is :%f\n",v);
+    
+    char beta;
+    printf("enter tha value  ");
+    scanf(" %c",&beta);
+    printf("the value is :%c\n",beta);
+    return 0;
+}
